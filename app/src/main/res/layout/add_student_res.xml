@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+        android:id="@+id/et_student_name"
+        android:hint="请输入姓名"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <EditText
+        android:id="@+id/et_student_number"
+        android:hint="请输入学号"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_student_password"
+            android:hint="请输入密码"
+            android:padding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_student_class"
+            android:hint="请输入班级"
+            android:padding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_student_major"
+            android:hint="请输入专业"
+            android:padding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_student_college"
+            android:hint="请输入学院"
+            android:padding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

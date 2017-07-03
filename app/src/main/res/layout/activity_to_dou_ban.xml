@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="library3.library3.controller.activity.ToDouBanActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="豆瓣详情"
+        android:textSize="40sp"
+        android:textColor="#00ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <FrameLayout
+            android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/wb_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:visibility="visible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/tv_loading"
+            android:text="正在加载中。。。"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="30dp" />
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_floor_one"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第一层馆藏详情：信息类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_two"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第二层馆藏详情：生活类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_three"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第三层馆藏详情：人工智能类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_four"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第四层馆藏详情：文学类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_five"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第五层馆藏详情：历史类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_six"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第六层馆藏详情：科技类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_seven"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第七层馆藏详情：经济类书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_floor_eight"
+        android:textSize="17sp"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:text="第八层馆藏详情：其他的书籍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+</ScrollView>

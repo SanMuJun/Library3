@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/backline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/tv_recommendation_bookname"
+        android:text="书名："
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:id="@+id/tv_recommendation_author"
+        android:layout_marginLeft="10dp"
+        android:text="作者"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:id="@+id/tv_recommendation_reason"
+        android:padding="10dp"
+        android:text="推荐理由"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/tv_recommendation_person"
+            android:textColor="@android:color/black"
+            android:text="推荐人"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_recommendation_time"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_recommendation_time"
+            android:text="时间"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <TextView
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+</LinearLayout>

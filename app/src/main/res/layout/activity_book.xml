@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="library3.library3.controller.activity.BookActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt_share"
+                android:text="分享"
+                android:textColor="#00ff00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_book_publish"
+                android:layout_toRightOf="@+id/iv_book_image"
+                android:layout_toEndOf="@+id/iv_book_image"
+                />
+
+            <ImageView
+
+                android:id="@+id/iv_book_image"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="180dp"
+                android:layout_height="240dp" />
+
+            <TextView
+                android:id="@+id/tv_book_name"
+                style="@style/textcolor"
+                android:layout_below="@+id/iv_book_image"
+                android:text="书名:时间简史"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_book_author"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_name"
+                android:text="作者:三哥"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_publish"
+                style="@style/textcolor"
+
+                android:layout_below="@+id/tv_book_author"
+                android:text="出版社:人民出版社"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_publicationtime"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_publish"
+                android:text="出版时间:2017-4-12"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_book_location"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_publicationtime"
+                android:text="书所在位置:1楼"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_isborrow"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_location"
+                android:text="是否被借出:false"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_remain_number"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_isborrow"
+                android:text="剩余本数:5"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_number"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_remain_number"
+                android:text="书的序号:10001"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_ISBN"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_number"
+                android:text="ISBN:110"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_net_url"
+                android:textColor="#00ff00"
+                android:layout_below="@+id/tv_book_ISBN"
+                android:text="豆瓣所在地址:前往豆瓣"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_sort"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_net_url"
+                android:text="所属类别:Android"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_content"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_sort"
+                android:text="简介:"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_book_content_all"
+                style="@style/textcolor"
+                android:layout_below="@+id/tv_book_content"
+                android:text="详细内容:时间简史d gdgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

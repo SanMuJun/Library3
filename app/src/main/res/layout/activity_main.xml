@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustResize"
+    android:orientation="vertical"
+    tools:context="library3.library3.controller.activity.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RadioButton
+            android:id="@+id/bt_library"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="图书馆"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb_drawalelibrary_selector_color"
+            android:textColor="@drawable/rb_drawalelibrary_selector_textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/bt_borrow_lend"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="借阅"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb_drawaleborrow_lend_selector_color"
+            android:textColor="@drawable/rb_drawalelibrary_selector_textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/bt_seat"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="预约座位"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb_drawaleseat_selector_color"
+            android:textColor="@drawable/rb_drawalelibrary_selector_textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/bt_me"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="我"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb_drawaleme_selector_color"
+            android:textColor="@drawable/rb_drawalelibrary_selector_textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+
+
+
+
+</LinearLayout>

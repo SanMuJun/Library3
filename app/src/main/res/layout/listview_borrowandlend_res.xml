@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+
+    <ImageView
+        android:id="@+id/iv_book_image"
+        android:background="@drawable/librarygreen"
+
+        android:layout_margin="5dp"
+        android:layout_width="50dp"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_book_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tv_book_name"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:text="书名：时间简史666666666666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_book_author"
+            android:text="作者：三哥"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@+id/iv_book_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/tv_borrow_data"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="借书日期:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_back_data"
+            android:layout_weight="1"
+            android:text="归还日期:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--<TextView-->
+            <!--android:id="@+id/tv_remain_date"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="剩余天数:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+
+    <TextView
+        android:focusable="false"
+        android:id="@+id/bt_back_book"
+        android:text="可长按提前归还图书"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

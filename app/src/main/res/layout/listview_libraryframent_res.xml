@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+
+    <ImageView
+        android:id="@+id/iv_book_image"
+        android:background="@drawable/librarygreen"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_book_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_book_name"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:text="书名：时间简史666666666666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_book_author"
+            android:text="作者：三哥"
+            android:textColor="@android:color/black"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_book_publish"
+            android:text="出版社：人民出版社"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_book_publicationtime"
+            android:textColor="@android:color/black"
+            android:text="出版时间：2017/4/11"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+
+                android:id="@+id/bt_listview_borrowlend"
+                android:focusable="false"
+                android:text="借阅"
+                android:layout_width="60dp"
+                android:layout_height="40dp" />
+            <Button
+                android:id="@+id/bt_listview_collection"
+                android:focusable="false"
+                android:text="收藏"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:layout_height="40dp" />
+             <!--<Button-->
+                 <!--android:id="@+id/bt_listview_share"-->
+                 <!--android:focusable="false"-->
+                <!--android:text="查看详细信息"-->
+                 <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="40dp" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

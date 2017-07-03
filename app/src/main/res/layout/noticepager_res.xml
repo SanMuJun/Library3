@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="图书馆公告"
+        android:textSize="20sp"
+        android:textColor="#00ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <View
+        android:id="@+id/line"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_name">
+
+
+        <ListView
+            android:id="@+id/listViewNotice"
+            android:layout_width="match_parent"
+            android:layout_height="492dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/tv_name"></ListView>
+
+        <TextView
+            android:id="@+id/tv_Notice_loading"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:text="暂时没有通知"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/bt_add_notice"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="添加新通知"
+            android:layout_gravity="right|bottom" />
+
+    </FrameLayout>
+
+</LinearLayout>

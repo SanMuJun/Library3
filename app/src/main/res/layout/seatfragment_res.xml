@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:text="离开"
+        android:textColor="#00ff00"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_to_second_floor"
+        android:text="第二层"
+        android:textColor="#00ff00"
+        android:layout_marginLeft="280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_seat_number"
+        android:text="座位号是"
+        android:layout_marginTop="15dp"
+        android:textColor="#00ff00"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="一楼东测"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="一楼中间"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="一楼西侧"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="460dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rg_floor_first"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_1"
+                android:text="东01"
+
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_5"
+                android:text="东05"
+                android:checked="false"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_9"
+                android:text="东09"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_13"
+                android:text="东13"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_17"
+                android:text="东17"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_21"
+                android:text="东21"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_25"
+                android:text="东25"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_29"
+                android:text="东29"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_2"
+                android:text="东02"
+
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_6"
+                android:text="东06"
+                android:checked="false"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_10"
+                android:text="东10"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_14"
+                android:text="东14"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_18"
+                android:text="东18"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_22"
+                android:text="东22"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_26"
+                android:text="东26"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_30"
+                android:text="东30"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_3"
+                android:text="东03"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_7"
+                android:text="东07"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_11"
+                android:text="东11"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_15"
+                android:text="东15"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_19"
+                android:text="东19"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_23"
+                android:text="东23"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_27"
+                android:text="东27"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_31"
+                android:text="东31"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_4"
+                android:text="东04"
+
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_8"
+                android:text="东08"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_12"
+                android:text="东12"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_16"
+                android:text="东16"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_20"
+                android:text="东20"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_24"
+                android:text="东24"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_28"
+                android:text="东28"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_32"
+                android:text="东32"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_33"
+                android:text="中33"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_37"
+                android:text="中37"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_41"
+                android:text="中41"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_45"
+                android:text="中45"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_49"
+                android:text="中49"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_53"
+                android:text="中53"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_57"
+                android:text="中57"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_61"
+                android:text="中61"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_34"
+                android:text="中34"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_38"
+                android:text="中38"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_42"
+                android:text="中42"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_46"
+                android:text="中46"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_50"
+                android:text="中50"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_54"
+                android:text="中54"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_58"
+                android:text="中58"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_62"
+                android:text="中62"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_35"
+                android:text="中35"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_39"
+                android:text="中39"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_43"
+                android:text="中43"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_47"
+                android:text="中47"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_51"
+                android:text="中51"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_55"
+                android:text="中55"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_59"
+                android:text="中59"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_63"
+                android:text="中63"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_36"
+                android:text="中36"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_40"
+                android:text="中40"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_44"
+                android:text="中44"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_48"
+                android:text="中48"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_52"
+                android:text="中52"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_56"
+                android:text="中56"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_60"
+                android:text="中60"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_64"
+                android:text="中64"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_65"
+                android:text="西65"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_69"
+                android:text="西69"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_73"
+                android:text="西73"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_77"
+                android:text="西77"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_81"
+                android:text="西81"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_85"
+                android:text="西85"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_89"
+                android:text="西89"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_93"
+                android:text="西93"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_66"
+                android:text="西66"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_70"
+                android:text="西70"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_74"
+                android:text="西74"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_78"
+                android:text="西78"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_82"
+                android:text="西82"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_86"
+                android:text="西86"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_90"
+                android:text="西90"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_94"
+                android:text="西94"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_67"
+                android:text="西67"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_71"
+                android:text="西71"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_75"
+                android:text="西75"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_79"
+                android:text="西79"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_83"
+                android:text="西83"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_87"
+                android:text="西87"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_91"
+                android:text="西91"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_95"
+                android:text="西95"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_68"
+                android:text="西68"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_72"
+                android:text="西72"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_76"
+                android:text="西76"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_80"
+                android:text="西80"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_84"
+                android:text="西84"
+                android:layout_marginLeft="100dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_88"
+                android:text="西88"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_92"
+                android:text="西92"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:id="@+id/bt_floor_first_east_96"
+                android:text="西96"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/bt_seatadd_selector"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </RadioGroup>
+
+</FrameLayout>
